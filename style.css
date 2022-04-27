@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+ body {
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+main {
+    background-color: hsl(217, 28%, 15%);
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    margin: 0 4rem;
+}
+div.logo {
+    width: 120px;
+    height: 60px;
+    background-image: url(/images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.nav {
+    display: flex;
+    align-items: center;
+}
+h3 > a.navText {
+    padding: 0 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+h3 > a.navText:hover {
+    color: hsl(51, 61%, 43%);
+}
+div.heroImage {
+    width: 50%;
+    height: 500px;
+    margin: 1rem auto;
+    background-image: url(/images/illustration-intro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h2.heroText1 {
+    width: 50%;
+    margin: 1rem auto;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7;
+}
+p.heroText2 {
+    width: 45%;
+    margin: 1rem auto;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.7;
+}
+p.cta-get {
+    text-align: center;
+    margin: 3rem auto 0;
+}
+p > a.cta-btn {
+    border: 1px solid hsl(176, 68%, 64%);
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 68%, 64%);
+    padding: .85rem 5rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9rem;
+}
+p > a.cta-btn:hover {
+    background-color: hsl(51, 61%, 43%);
+    border: 1px solid hsl(51, 61%, 43%);
+}
+div.curly-bg {
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: -17rem 0 0 0;
+}
+section#features {
+    background-color: hsl(218, 28%, 13%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas: auto;
+    gap: 2rem;
+    margin: -5rem 0 0 0;
+    padding: 1rem 10rem;
+    border: 1px solid yellow;
+}
+div.box1 {
+    border: 1px solid white;
+    text-align: center;
+    padding: 4rem;
+}
+div.box2 {
+    border: 1px solid white;
+    text-align: center;
+    padding: 4rem;
+}
+div.box3 {
+    border: 1px solid white;
+    text-align: center;
+    padding: 4rem;
+}
+div.box4 {
+    border: 1px solid white;
+    text-align: center;
+    padding: 4rem;
+}
+img {
+    padding-bottom: 1rem;
+}
+h4.text {
+    font-size: 1.1rem;
+    color:hsl(0, 0%, 90%);
+    padding-bottom: 10px;
+}
+p.text {
+    color:hsl(0, 0%, 90%);
+    font-size: .75rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+section#products {
+    background-color: hsl(218, 28%, 13%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas: auto;
+    gap: 3rem;
+    padding: 5rem 10rem;
+    border: 1px solid yellow;
+    place-items: center center;
+}
+div.product-illustration {
+    width: 100%;
+    height: 340px;
+    background-image: url(/images/illustration-stay-productive.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+}
+h2.productTxt {
+    color:hsl(0, 0%, 90%);
+    font-size: 2.1rem;
+    padding-bottom: 1rem;
+}
+p.protxt1 {
+    color:hsl(0, 0%, 90%);
+    font-size: .8rem;
+    padding-bottom: 1rem;
+}
+p > a.fyloWork {
+    color:hsl(176, 68%, 64%);
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+p > a.fyloWork:hover {
+    color: hsl(51, 61%, 43%);
+}
+img.rightArrow {
+    padding-bottom: 0rem;
+    padding-left: 5px;
+}
+section#testimonials {
+    background-color: hsl(218, 28%, 13%);
+    padding: 5rem 10rem;
+    border: 1px solid yellow;
+}
+img.quotes {
+    width: 50px;
+    height: 60px;
+    position: relative;
+    left: -10px;
+}
+div.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-template-areas: auto;
+    gap: 2rem;
+    position: relative;
+    top: -30px;
+}
+div.testimonial1,
+div.testimonial2,
+div.testimonial3 {
+    border: 1px solid hsl(219, 30%, 18%);
+    background-color:  hsl(219, 30%, 18%);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(19, 41, 82);
+}
+p.testimonialtext {
+    padding: 1.2rem .7rem;
+    color:hsl(0, 0%, 100%);
+    font-size: .85rem;
+}
+div.tezbox {
+    border: 1px solid white;
+    display: flex;
+    padding: 0 .7rem;
+}
+div.img1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url(/images/profile-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.img2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url(/images/profile-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.img3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url(/images/profile-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.tezt1 {
+    padding-left: 15px;
+    font-size: .7rem;
+    color: hsl(0, 0%, 100%);
+}
+div.newsletter {
+    border-radius: 6px;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 5px 5px 5px hsl(217, 28%, 15%);
+    width: 80%;
+    margin: 5rem auto 0;
+    padding: 3rem 3rem 2rem;
+    text-align: center;
+}
+h2.get {
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 100%);
+}
+p.textget {
+    color: hsl(0, 0%, 100%);
+    font-size: .8rem;
+    padding: 2rem 3rem;
+}
+input[type=email] {
+    width: 60%;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: none;
+    color: hsl(0, 0%, 93%);
+}
+.getbtn {
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    border: none;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+}
