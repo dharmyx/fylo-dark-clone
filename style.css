@@ -189,7 +189,7 @@ img.rightArrow {
     padding-left: 5px;
 }
 section#testimonials {
-    background-color: hsl(218, 28%, 13%);
+    background-color: hsl(219, 30%, 18%);
     padding: 5rem 10rem;
     border: 1px solid yellow;
 }
@@ -261,8 +261,8 @@ div.tezt1 {
 }
 div.newsletter {
     border-radius: 6px;
-    background-color: hsl(219, 30%, 18%);
-    box-shadow: 5px 5px 5px hsl(217, 28%, 15%);
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 5px 5px 5px hsl(219, 30%, 18%);
     width: 80%;
     margin: 5rem auto 0;
     padding: 3rem 3rem 2rem;
@@ -304,14 +304,14 @@ div.footer-logo {
     background-size: 100%;
 }
 section#footer {
+    background-color: hsl(216, 53%, 9%);
     padding: 5rem 5rem;
 }
 footer-sub-section {
-    background-color: hsl(218, 28%, 13%);
     padding: 1rem 0;
     border: 1px solid yellow;
     display: grid;
-    grid-template-columns: 300px 300px auto auto auto;
+    grid-template-columns: 300px 300px auto auto 300px;
     gap: 10px;
 }
 div.Lorem {
@@ -319,6 +319,17 @@ div.Lorem {
     font-size: .8rem;
     display: flex;
     padding: 20px 10px 20px 0;
+}
+div.Phone,
+div.Email {
+    color: #fff;
+    font-size: .8rem;
+    padding-top: 10px;
+}
+p.footerText {
+    color: #fff;
+    font-size: .8rem;
+    padding-top: 10px;
 }
 .fa-map-marker-alt {
     color: #fff;
